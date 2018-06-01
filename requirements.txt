@@ -3,6 +3,5 @@ Flask
 flask_cors
 psycopg2
 requests
-json
 jwt
 time
