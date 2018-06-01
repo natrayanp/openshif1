@@ -5,11 +5,11 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 CORS(app)
 
-form pf import portfolio
-form pf import mforder
-form pf import mfsiporder
-form pf import fund
-form pf import jwtdecodenoverify as jwtnoverify
+from pf import portfolio
+from pf import mforder
+from pf import mfsiporder
+from pf import fund
+from pf import jwtdecodenoverify as jwtnoverify
 
 
 
