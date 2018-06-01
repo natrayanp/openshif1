@@ -1,4 +1,4 @@
-import app
+import app from app
 #from .hello_world import app
 from flask import request, make_response, jsonify, Response, redirect
 from datetime import datetime
