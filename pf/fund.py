@@ -1,9 +1,9 @@
-from pf import app
+from app import app
 #from .hello_world import app
 from flask import request, make_response, jsonify, Response, redirect
 from datetime import datetime
-from pf import dbfunc as db
-from pf import jwtdecodenoverify as jwtnoverify
+import dbfunc as db
+import jwtdecodenoverify as jwtnoverify
 from dateutil import tz
 from datetime import datetime
 from datetime import date
