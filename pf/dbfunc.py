@@ -1,4 +1,4 @@
-from flask import jsonify
+#from flask import jsonify
 
 import psycopg2
 import psycopg2.extras
