@@ -3,12 +3,8 @@ import dbfunc as db
 import jwtdecodenoverify as jwtnoverify
 
 from flask import request, make_response, jsonify, Response, redirect
-from datetime import datetime
-import dbfunc as db
-import jwtdecodenoverify as jwtnoverify
 from dateutil import tz
-from datetime import datetime
-from datetime import date
+from datetime import datetime, date
 import settings
 from multiprocessing import Process
 from multiprocessing import Pool
