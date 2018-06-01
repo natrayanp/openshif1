@@ -1,4 +1,4 @@
-import app
+from app import app
 import dbfunc as db
 import jwtdecodenoverify as jwtnoverify
 #from order import dbfunc as db
