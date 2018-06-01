@@ -1,6 +1,6 @@
-from pf import app
-from pf import dbfunc as db
-from pf import jwtdecodenoverify as jwtnoverify
+from app import app
+import dbfunc as db
+import jwtdecodenoverify as jwtnoverify
 #from order import dbfunc as db
 #from order import jwtdecodenoverify as jwtnoverify
 
@@ -15,10 +15,10 @@ from datetime import datetime, timedelta
 from datetime import date
 from multiprocessing import Process
 from multiprocessing import Pool
-from pf import mforderapi
-from pf import mfsiporder
+import mforderapi
+import mfsiporder
 import requests
-from pf import webapp_settings
+import webapp_settings
 
 import psycopg2
 import json
