@@ -1,9 +1,9 @@
-from pf import app
-from pf import dbfunc as db
-from pf import jwtdecodenoverify as jwtnoverify
+from app import app
+import dbfunc as db
+import jwtdecodenoverify as jwtnoverify
 
 from flask import request, make_response, jsonify, Response, redirect
-from pf import settings
+import settings
 
 
 from selenium import webdriver
