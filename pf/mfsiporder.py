@@ -1,6 +1,6 @@
-from pf import app
-from pf import dbfunc as db
-from pf import jwtdecodenoverify as jwtnoverify
+from app import app
+import dbfunc as db
+import jwtdecodenoverify as jwtnoverify
 #from order import dbfunc as db
 #from order import jwtdecodenoverify as jwtnoverify
 
@@ -8,15 +8,13 @@ from pf import jwtdecodenoverify as jwtnoverify
 #from order import app
 from flask import request, make_response, jsonify, Response, redirect
 from datetime import datetime
-from order import dbfunc as db
-from order import jwtdecodenoverify as jwtnoverify
 from dateutil import tz
 from datetime import datetime, timedelta
 from datetime import date
 from multiprocessing import Process
 from multiprocessing import Pool
-from pf import mforderapi
-from pf import mforder
+import mforderapi
+import mforder
 import requests
 
 import psycopg2
