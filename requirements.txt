@@ -1,2 +1,2 @@
 gunicorn
-Flask
+Flask==0.11
