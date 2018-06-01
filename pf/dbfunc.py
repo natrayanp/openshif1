@@ -1,4 +1,3 @@
-from loginservices import app
 from flask import jsonify
 
 import psycopg2
